@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia em HTML5</title>
+</head>
+<body>
+    <h1>Imahwm dínamica.</h1>
+    <p>Tente abrir esse site em vários dispositivos dierentes ou simplismente aumenta e díminui o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="Image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível.">
+    </picture>
+    <h1> Vamos usar Audios</h1>
+    <p>vamos reproduzir nosso primeiro audio em nosso site.</p>
+    <audio src="audio/02. DAQUI PRA SEMPRE.mp3.mp3" controls autoplay></audio> <!--MP3 OGG WAY -->
+   <p>vamos testa outro jeito de reproduzir <audio src=""></audio></p> 
+    <audio preload="metadata" controls autoplay loop>
+        <source src="audio/02. DAQUI PRA SEMPRE.mp3.mp3" type="audio/mpeg">
+        <p>infelizmente o meu navegador não é compativel <a href="audio/02. DAQUI PRA SEMPRE.mp3.mp3" type="audio/mpeg">click aqui pra baixar</a> </p>
+    </audio>
+    
+</body>
+</html>
